@@ -1,0 +1,26 @@
+1️⃣ CNAEs mais comuns para desenvolvimento de software e web:
+
+Atividade	CNAE	Observações
+Desenvolvimento de programas de computador sob encomenda	6201-5/01	Ideal se você cria softwares personalizados para clientes.
+Desenvolvimento e licenciamento de programas de computador customizáveis	6201-5/02	Se você cria software que vende/licencia para vários clientes (SaaS, por exemplo).
+Desenvolvimento de websites	6203-1/00	Específico para criação e manutenção de sites e soluções web.
+Suporte técnico e manutenção de software	6204-0/00	Para serviços de manutenção de sistemas já existentes.
+2️⃣ Qual é mais barato (Simples Nacional):
+
+Se você pretende abrir MEI (Microempreendedor Individual), o CNAE mais indicado seria 6201-5/01 ou 6203-1/00, dependendo do foco:
+
+MEI só permite faturamento até R$ 144.000/ano (em 2025).
+
+Tributos: você paga fixo mensal entre R$ 65 e R$ 70, dependendo do tipo (INSS + ISS/ICMS).
+
+CNAE MEI possível:
+
+6201-5/01: Desenvolvimento de software (sim, é permitido no MEI)
+
+6203-1/00: Criação de websites (permitido no MEI)
+
+Se você pretende ultrapassar o limite de faturamento do MEI, aí precisará de Simples Nacional (Microempresa – ME), e o valor do imposto depende da tabela de anexo III ou V.
+
+Anexo III: até 6% a 33% sobre faturamento
+
+Anexo V: até 15,5% a 30,5% sobre faturamento (mais comum para serviços de tecnologia sem folha de pagamento)
