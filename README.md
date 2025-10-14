@@ -1,5 +1,7 @@
-# empresa
-dados que estou reunindo para abertura da minha empresa
+# Abertura de empresa
+
+Para a área de T.I podedmos utilizar os seguintes CNAE
+
 
 | Descrição do Serviço | Código CNAE | Aplicação |
 |----------------------|-------------|-----------|
