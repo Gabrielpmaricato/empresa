@@ -1,6 +1,6 @@
-# Abertura de empresa
+# Abertura de empresa no Brasil
 
-Para a área de T.I podedmos utilizar os seguintes CNAE
+No Brasil, para abertura de empresa na área de T.I podedmos utilizar os seguintes CNAE
 
 
 | Descrição do Serviço | Código CNAE | Aplicação |
