@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Fiscal - Gabriel Peterossi Maricato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .invoice-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .company-info {
+            font-size: 14px;
+        }
+        .header img {
+            width: 100px;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .details .to-section {
+            font-size: 14px;
+        }
+        .details .invoice-info {
+            font-size: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f2f2f2;
+        }
+        .total {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: right;
+            margin-top: 10px;
+        }
+        .payment-details {
+            font-size: 14px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="header">
+            <div class="company-info">
+                <strong>GABRIEL PETEROSSI MARICATO</strong><br>
+                Avenida Libero Badaró, 115 - Jaboticabal<br>
+                14870-540<br>
+                gabrielpmaricato@gmail.com<br>
+                www.gabrielpmaricato.com.br
+            </div>            
+        </div>
+        <h1>NOTA FISCAL</h1>
+        <div class="details">
+            <div class="to-section">
+                <strong>Para:</strong> %cliente% <br>
+                <!-- Consultoria e Desenvolvimento .Net<br>                 -->
+                %servicos%<br>                
+            </div>
+            <div class="invoice-info">
+                <strong>Nota Fiscal número:</strong> %notaFiscalNumero% <br>
+                <strong>Data:</strong> %data%<br>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Tempo</th>
+                    <th>Valor Unitário</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>%descricaoServico_1%</td>
+                    <td>%tempoServico_1%</td>
+					<td>%valorUnitarioServico_1%</td>
+                    <td>%totalServico_1%</td>
+                </tr>             
+                <tr>
+                    <td>%descricaoServico_2%</td>
+                    <td>%tempoServico_2%</td>
+					<td>%valorUnitarioServico_2%</td>
+                    <td>%totalServico_2%</td>
+                </tr>    
+            </tbody>
+        </table>
+        <div class="total">
+            <!-- <strong>Total: R$ 400,00</strong> -->
+            <strong>Total: R$ %total% </strong>
+        </div>
+        <div class="payment-details">
+            <strong>Detalhes para pagamento</strong><br>
+            Banco: Nubank<br>
+            Nome: Gabriel Peterossi Maricato<br>
+            Dados da Conta: xx-xx-xx<br>
+            Account No: 12345678
+        </div>
+    </div>
+</body>
+</html>
